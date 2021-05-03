@@ -5,6 +5,7 @@ body {
 ul{
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 header {
   display: flex;
@@ -427,4 +428,38 @@ button.active-indicator {
   font-size: 37px;
   line-height: 43px;
   color: #252525;
+}
+
+footer{
+  background-color: #717CFF;
+  display: flex;
+  justify-content: center;
+}
+footer > ul{
+  display: flex;
+  width: 1183px;
+  justify-content: space-between;
+}
+footer{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #EEEEEE;
+}
+footer a{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  text-decoration: none;
+  color: #EEEEEE;
+}
+footer ul ul{
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+footer .socials{
+  flex-direction: row;
+  height: 180px;
+  align-items: flex-end;
 }
